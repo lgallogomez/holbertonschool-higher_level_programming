@@ -1,0 +1,1 @@
+In this project i will be resolving exercises related to the concept of conditionals using the python language
