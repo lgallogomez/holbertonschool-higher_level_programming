@@ -2,6 +2,7 @@
 import sys
 from sys import argv
 
+
 def func():
     i = 0
     summ = 0
