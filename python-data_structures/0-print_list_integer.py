@@ -1,9 +1,8 @@
 #!/usr/bin/python3
 
 def print_list_integer(my_list=[]):
-    i = 0
-    for i in my_list:
-        print("{}".format(i))
+    for num in my_list:
+        print("{:d}".format(num))
 
 
 if (__name__ == "__main__"):
