@@ -6,4 +6,4 @@ def no_c(my_string):
     for char in my_string:
         if char != targ_1 and char != targ_2:
             new_str += char
-    return(new_str)
+    return (new_str)
