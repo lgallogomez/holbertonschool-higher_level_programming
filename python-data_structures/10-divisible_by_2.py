@@ -10,3 +10,11 @@ def divisible_by_2(my_list=[]):
             new_list[i] = False
         i += 1
     return (new_list)
+
+list = [1, 2, 3, 4]
+list_result = divisible_by_2(list)
+
+i = 0
+while i < len(list):
+    print("{:d} {:s} divisible by 2".format(list[i], "is" if list_result[i] else "is not"))
+    i += 1
