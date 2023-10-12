@@ -10,9 +10,3 @@ def safe_print_division(a, b):
         if c is not None:
             print("Inside result: {:.1f}".format(c))
             return (c)
-
-
-a = 12
-b = 0
-result = safe_print_division(a, b)
-print("{:d} / {:d} = {}".format(a, b, result))
