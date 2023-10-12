@@ -2,9 +2,9 @@
 def list_division(my_list_1, my_list_2, list_length):
     j = 0
     new_list = []
-    for i in my_l_1:
+    for i in my_list_1:
         try:
-            result = i / my_l_2[j]
+            result = i / my_list_2[j]
             new_list.append(result)
         except ZeroDivisionError:
             print("division by 0")
