@@ -7,7 +7,7 @@ class Square:
     """ class square creates a private attribute """
     def __init__(self, __size=0):
         self.__size = __size
-        
+    
     def size(self, value):
         if type(value) != int:
             raise TypeError("size must be an integer")
@@ -15,6 +15,11 @@ class Square:
             raise ValueError("size must be >= 0")
         self.__size = value
 
+    def size(self):
+        return(self.size)
+
     def area(self):
         a = self.__size * self.__size
         return (a)
+
+
