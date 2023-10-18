@@ -1,0 +1,1 @@
+In this projects I will be working on excercises related to the concept of classes in Object Oriented Programming using the Python language.
