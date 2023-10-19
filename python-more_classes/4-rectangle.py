@@ -54,6 +54,3 @@ class Rectangle:
 
     def __repr__(self):
         return ("Rectangle ({}, {})".format(self.__width, self.__height))
-    
-    def __eq__(self, __value: object) -> bool:
-        return (self.__width == __value.width and self.__height == __value.height)
