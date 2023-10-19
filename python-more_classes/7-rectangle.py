@@ -48,12 +48,9 @@ class Rectangle:
         ret = ""
         if self.__height == 0 or self.width == 0:
             return ""
-        if type(self.print_symbol) == int:
-            int(self.print_symbol)
-
         for i in range(self.__height):
             for j in range(self.__width):
-                ret += self.print_symbol
+                ret += str(self.print_symbol)
             if i < self.__height - 1:
                 ret += "\n"
         return ret
