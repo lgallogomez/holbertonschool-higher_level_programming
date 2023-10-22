@@ -1,1 +1,2 @@
-Yes
+def copy_list(a_list):
+    return copy(a_list)
