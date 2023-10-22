@@ -1,0 +1,1 @@
+In this project I will be resolving excercises related to the concepto of Object Oriented programming using the Python programming language. 
