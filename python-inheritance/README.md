@@ -1,0 +1,1 @@
+In this project I will be assesing excercises related to the concept of inheritance in object oriented programming using the python language 
