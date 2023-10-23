@@ -7,7 +7,7 @@ function returns true if object is same an instance of class, or false
 
 def is_same_class(obj, a_class):
     """
-    function returns true if object is same an instance of class, or false
+    function returns true if object is same instance of class false
     """
     if type(obj) is a_class:
         return True
