@@ -5,7 +5,7 @@ empty class BaseGeometry
 """
 
 
-class BaseGeometry(self):
+class BaseGeometry():
     """
     no methods so far
     """
