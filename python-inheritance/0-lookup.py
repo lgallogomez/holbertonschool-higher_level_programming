@@ -1,2 +1,3 @@
 def lookup(obj):
-    return super(obj)
+    a = super(obj)
+    return (a)
