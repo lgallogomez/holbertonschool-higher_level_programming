@@ -7,7 +7,9 @@ class inherits BaseGeometry class
 
 class Rectangle(__import__('7-base_geometry').BaseGeometry):
 
-    
+    """
+    class inherits BaseGeometry class, returns area and prints
+    """
     
     def __init__(self, width, height):
         self.integer_validator("width", width)
