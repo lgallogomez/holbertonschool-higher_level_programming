@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 """
-returns True if object is instance of class inherited (directly or indirectly) specified class
+returns True if object is instance of class inherited (directly or indirectly)
 """
 
 
