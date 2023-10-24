@@ -21,3 +21,5 @@ class Rectangle(__import__('7-base_geometry').BaseGeometry):
     def __str__(self):
         return("[{}] {}/{}".format(__class__.__name__, self.__width, self.__height))
     
+    def __print__(self):
+        return("[{}] {}/{}".format(__class__.__name__, self.__width, self.__height))
