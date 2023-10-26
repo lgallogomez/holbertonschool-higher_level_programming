@@ -4,6 +4,7 @@
 Function adds 2 integers. b setted as 98 if nothing is provided
 '''
 
+
 def add_integer(a, b=98):
 
     """
