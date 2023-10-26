@@ -27,4 +27,4 @@ now use the function:
     >>> print(add_integer(a, b=98))
     Traceback (most recent call last):
         ...
-    TypeError: a is not defined
+    TypeError: a must be an integer
