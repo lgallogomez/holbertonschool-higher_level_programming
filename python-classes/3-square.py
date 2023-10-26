@@ -1,10 +1,14 @@
 #!/usr/bin/python3
 
-""" File where I'm creating a class """
+"""
+File where I'm creating a class
+"""
 
 
 class Square:
-    """ class square creates a private attribute """
+    """ 
+    class square creates a private attribute
+    """
     def __init__(self, size=0):
         if type(size) != int:
             raise TypeError("size must be an integer")
