@@ -23,3 +23,9 @@ now use the function:
     Traceback (most recent call last):
         ...
     TypeError: a must be an integer
+
+    >>> a = None
+    >>> print(add_integer(a, 5))
+    Traceback (most recent call last):
+        ...
+    TypeError: a must be an integer
