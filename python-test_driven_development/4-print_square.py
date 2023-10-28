@@ -12,3 +12,5 @@ def print_square(size):
             print("#", end="")
         print("")
     print("")
+
+print_square(0)
