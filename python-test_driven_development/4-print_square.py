@@ -1,6 +1,15 @@
 #!/usr/bin/python3
 
+"""
+function prints an square using #
+"""
+
+
 def print_square(size):
+    """
+    function prints an square using #
+    """
+
     if type(size) is not int:
         raise TypeError("size must be an integer")
     if size < 0:

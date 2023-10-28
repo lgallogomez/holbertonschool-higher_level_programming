@@ -5,7 +5,6 @@
     ####
     ####
     ####
-    <BLANKLINE>
 
     >>> print_square(10)
     ##########
@@ -18,11 +17,9 @@
     ##########
     ##########
     ##########
-    <BLANKLINE>
 
     >>> print_square(1)
     #
-    <BLANKLINE>
 
     >>> print_square("c")
     Traceback (most recent call last):
@@ -35,7 +32,6 @@
     ValueError: size must be >= 0
 
     >>> print_square(0)
-    <BLANKLINE>
 
     >>> print_square(1.5)
     Traceback (most recent call last):
