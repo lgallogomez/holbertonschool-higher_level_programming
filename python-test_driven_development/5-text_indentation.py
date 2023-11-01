@@ -3,6 +3,7 @@
 Function prints a text with 2 new lines
 """
 
+
 def text_indentation(text):
     """
     function prints a text with 2 new lines
@@ -16,7 +17,9 @@ def text_indentation(text):
                 new_str += text[element]
             else:
                 new_str += text[element]
-                while text[element-1] != ' ':
-                    element += 1
-                    new_str += '\n'
+                element += 1
+                new_str += '\n'
+                new_str += '\n'
     print (new_str)
+
+text_indentation("Holberton.School?")
