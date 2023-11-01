@@ -1,4 +1,4 @@
 >>> text_identation("this. text")
 this.
-<BLANKLINE>
+
 text
