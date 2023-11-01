@@ -18,6 +18,7 @@ def text_indentation(text):
             else:
                 new_str += text[element]
                 element += 1
-                new_str += '\n'
-                new_str += '\n'
+                if new_str[element] != new_str[element-1]:
+                    new_str += '\n'
+                    new_str += '\n'
     print (new_str)
