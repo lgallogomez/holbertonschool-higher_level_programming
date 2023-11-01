@@ -1,4 +1,13 @@
->>> text_indentation("this. text")
-this.
-<BLANKLINE>
-text
+5-text_indentation
+===================
+    >>> text_indentation = __import__('5-text_indentation').text_indentation
+
+    >>> text_indentation("this. text")
+    this.
+    <BLANKLINE>
+    text
+
+    >>> text_indentation(7)
+    Traceback (most recent call last):
+        ...
+    TypeError: text must be a string
