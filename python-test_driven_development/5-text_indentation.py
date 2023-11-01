@@ -12,15 +12,15 @@ def text_indentation(text):
     new_str = ""
     if type(text) is not str:
         raise TypeError("text must be a string")
-    for element in range(len(text)):
-            if text[element] != '.' and text[element] != '?' and text[element] != ':':
-                new_str += text[element]
+    i = 0
+    chars = ".?:"
+    while (i < len(text)):
+        if text[i] in chars:
+            print(text[i], end="\n\n")
+            if i < (len(text) - 1) and text[i + 1] == " ":
+                i += 2
             else:
-                new_str += text[element]
-                element += 1
-                if new_str[element] != new_str[element-1]:
-                    new_str += '\n'
-                    new_str += '\n'
-    print (new_str)
-
-text_indentation("Holberton. School? How are you:    John")
+                i += 1
+        else:
+            print(text[i], end="")
+            i += 1
