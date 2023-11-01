@@ -22,3 +22,5 @@ def text_indentation(text):
                     new_str += '\n'
                     new_str += '\n'
     print (new_str)
+
+text_indentation("Holberton. School? How are you:    John")
