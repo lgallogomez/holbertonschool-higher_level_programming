@@ -1,0 +1,1 @@
+In thi sproject I will be working on exercises related to the concept of Databases using SQL and Mysql in a docker container.  
