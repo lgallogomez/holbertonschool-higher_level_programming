@@ -1,2 +1,2 @@
 -- creates table in cirrent db
-CREATE TABLE IF NOT EXISTS first_table (id INT name VARCHAR(256));
+CREATE TABLE (id INT name VARCHAR(256)) IF NOT EXISTS first_table;
