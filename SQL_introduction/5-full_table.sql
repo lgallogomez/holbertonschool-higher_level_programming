@@ -1,2 +1,2 @@
 -- script shows descrption of db
-SHOW CREATE TABLE hbtn_0c_0.first_table;
+SHOW TABLE STATUS FROM hbtn_0c_0;
