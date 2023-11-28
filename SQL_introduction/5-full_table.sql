@@ -1,2 +1,2 @@
 -- script shows descrption of db
-SHOW TABLE STATUS FROM first_table;
+SHOW CREATE TABLE FROM first_table;
