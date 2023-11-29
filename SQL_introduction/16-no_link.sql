@@ -1,5 +1,5 @@
 -- script lists all records
 SELECT score, name 
 FROM second_table
-GROUP BY name
+WHERE score IS NOT NULL
 ORDER BY score DESC;
