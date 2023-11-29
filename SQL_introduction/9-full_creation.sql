@@ -1,4 +1,4 @@
---script create table with multiple rows & values
+-- script create table with multiple rows & values
 CREATE TABLE IF NOT EXISTS second_table (
     id INT,
     name VARCHAR(256),
