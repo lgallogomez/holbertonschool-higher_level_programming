@@ -1,0 +1,1 @@
+This repository contains all the projects related to higher level programming while training as a software engineering at Holberton School. 
