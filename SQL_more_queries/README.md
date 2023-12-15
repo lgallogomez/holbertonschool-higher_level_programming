@@ -1,0 +1,1 @@
+This is the second project about SQL. I'll be using Mysql as DBMS at a Docker container in order to try locally the excercises before uploading into the Holberton checker system. 
