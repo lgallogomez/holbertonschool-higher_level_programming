@@ -2,4 +2,4 @@
 SELECT id
 FROM states
 WHERE name='California'
-ORDER BY state_id ASC;
+ORDER BY id ASC;
